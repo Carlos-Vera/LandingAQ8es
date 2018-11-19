@@ -1,0 +1,466 @@
+body{font-size:16px;font-family:'Roboto', sans-serif;position:relative;}
+header{width:100%;height:70px;background:#fff;position:sticky;top:0;z-index:999;-webkit-animation-delay:2s;animation-delay:2s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+header nav .ioMenuMovil{display:inline-block;height:50px;width:auto;cursor:pointer;line-height:50px;margin:0px 0px 0px 10px;}
+.bg-faded{background-color:#fff;}
+.navbar{z-index:500;}
+.navbar-brand{margin:0 auto;}
+.navbar-nav{margin-top:30px;text-align:center;}
+.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,.7);}
+.navbar-light .navbar-nav .nav-link:hover{color:#fc0d1b;}
+.nav-link{display:block;padding:.7em 1em;}
+.website{display:none;}.movil{display:inline-block;text-align:center;width:100%;margin:3% auto 1% auto;}
+.faldon{display:inline-block;padding-top:.25rem;padding-bottom:.25rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap;}
+.link-faldon{color:#333;text-decoration:none;margin:0 auto;}
+.link-faldon:focus, a:focus, a:hover{color:#ca000c;text-decoration:none;}
+.link-faldon-movil{color:#333;text-decoration:none;margin:0 3%;font-size:.8em;}
+.super{vertical-align:super;font-weight:400;font-size: small;top:-1.5em;margin-left:-2.5em;}
+.super1{top:-1em;font-size:40%;line-height:0;position:relative;vertical-align:baseline;}
+body header nav a img{display:inline-block;height:50px;width:auto;cursor:pointer;top:0px;vertical-align:middle;margin:0px;}
+.navbar-light .navbar-toggler{border-color:#fff;}
+h1{font-size:3em;font-family:'Roboto', sans-serif;text-align:center;margin:25% 0 0 0;z-index:2;-webkit-animation-delay:2.5s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+h2{color:#9a9a9a;text-align:center;line-height:1.4em;font-size:.75em;font-weight:300;}
+h3{display:inline;font-family:'Roboto',sans-serif;font-weight:400;font-size:19px;line-height:28px;color:#333333;text-align:center;}
+h4{font-size:21px;font-family:'Roboto', sans-serif;text-align:center;font-weight:lighter;-webkit-animation-delay:3s;animation-delay:3s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+body div figure{margin:0 auto;}
+.emsfitness{text-align:center;margin:0 auto;}
+#equipo-aq8 figure:nth-child(8){margin-left:5%;}
+#negocio figure{text-align:center;margin-top:-6%;}
+body div figure img{border-style:none;width:100%;-webkit-animation-delay:.5s;animation-delay:.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.btn{border-radius:1.5rem;}
+.btn-primary{background-color:#FC0D1B;border-color:#FC0D1B;}
+.btn-primary:hover{color:#fff;background-color:#ca000c;border-color:#ca000c;}
+.btn-primary.focus, .btn-primary:focus{box-shadow:0 0 0 2px rgba(202,0,12,.5);}
+.btn-primary:active{background-color:#a2010a;background-image:none;border-color:#c7010c;}
+#navbarNav div button{margin:0 25%;margin-top:3%;}
+.reserch{display:block;width:100%;margin:10% auto;margin-bottom:15%;text-align:center;}
+div.saber{display:block;width:100%;margin:5% auto;text-align:center;}
+div.saber button{display:block;width:auto;margin:0 auto;}
+#MR div{margin-top:7%;margin-bottom:2%;}
+body div p{font-family:'Roboto', sans-serif;font-weight:300;font-size:19px;line-height:28px;color:#333333;text-align:center;}
+div .group{display:inline-block;position:relative;top:20px;width:100%;}
+div .group div#center{display:inline-block;position:relative;width:43%;margin:3%;vertical-align:top;}
+#center div{margin:0;padding:0;background:purple;}
+#center p:nth-child(1){display:block;margin:0;font-size:48px;line-height:50px;font-weight:200;color:#ff0000;text-align:center;}
+#center p:nth-child(2){display:block;margin:0px 0px 0px 0px;font-size:15px;font-weight:normal;text-align:center;color:#666;line-height:21px;}
+body div#certificados{display:inline-block;position:relative;top:20px;width:100%;text-align:center;margin-top:5%;}
+body div#certificados figure{display:inline-block;margin:5%;width:35%;}
+#certificados figure img,
+div #imagen figure{width:100%;}
+#imagen{width:100%;position:relative;top:40px;}
+#imagen figure img{display:inline-block;position:relative;width:100%;height:auto;}
+#video-contacto{display:block;position:relative;top:40px;width:100%;}
+div#tel-video{display:inline-block;display: inline-block;margin:0 auto;width:100%;margin-bottom:7%;text-align:center;}
+div#tel-video a.texto-phone{text-decoration:none;font-size:2em;color:#333;font-weight:700;width:100%;}
+div#video{display:block;width:100%;height:auto;}
+#video iframe{width:100%;height:220px;}
+div#MR{display:inline-block;width:100%;margin:40px 0 0 0;}
+div#wide, div#wide-img{display:none;}
+#negocio div{margin-bottom:0;margin-top:-7%;}
+#MR p span, #equipo-aq8 p.sincables,
+p.negocio span, p.contactanos, a.telefono, #imagen > p:nth-child(2){display:block;font-size:2em;line-height:1.2em;font-weight:700;}
+#suscribirse a{margin:30px 0 40px 0;position:relative;left:35%;}
+.titulo{font-size:3em;font-weight:700;line-height:.5em;margin-top:0.2em;}
+.subtitulo{font-weight:700;font-size:2em;line-height:.5em;margin-top:.5em;}
+.subtitulo1{font-weight:700;font-size:2.5em;line-height:1em;}
+.subtitulo2{font-weight:700;font-size:1.5em;line-height:1em;}
+.light{font-weight:200;}
+.mb-20{margin-bottom:20%;}
+.mb-10{margin-bottom:10%;}
+.mb-05{margin-bottom:5%;}
+.mb-10n{margin-bottom:-10%;}
+.mt-7{margin-top:7%;}
+.mt-10{margin-top:10%;}
+.mt-15{margin-top:15%;}
+.mt-20{margin-top:20%;}
+.mlr-5{margin-left:5%;margin-right:5%;}
+.neg-cur{font-weight:700;font-style:italic}
+.negrita{font-weight:700;}
+.no-lr-pm{padding-left:0;padding-right:0;margin-left:0px;margin-right:0px;}
+div#equipo-aq8{display:block;width:100%;margin-top:15%;}
+div#equipo-aq8-wide{display:none;}
+#equipo-aq8 p.sincables{margin-bottom:20px;}
+a:focus{color:#fff;}
+div#negocio{margin-top:20px;padding:10% 0;}
+div#negocio a, body > div:nth-child(3) > a{margin:30px 0 40px 0;position:relative;z-index:1;}
+div#distribucion{background-image:url(../img/Mapa-AQ8.jpg);background-repeat:no-repeat;background-position:center center;background-size:cover;position:relative;width:100%;z-index:0;margin-top:-35%;}
+#paises div{margin:10% auto;padding-bottom:15%;margin-top:10%;}
+div#aq8{padding-top:45%;}
+div#aq8 p{display:block;font-size:1.7em;line-height:1em;font-weight:500;margin:7% 5%;color:#fff;padding:0;}
+div#paises p.cuatro_dos{position:relative;color:#fff;margin:80px 0 0 0;font-size:7em;font-weight:700;text-align:center;}
+div#paises p{color:#fff;padding:0;}
+div#paises a{position:relative;margin:40px 0;}
+div#formulario{display:inline-block;width:100%;height:300px;padding-top:5%;margin:5% auto;}
+.text-muted{margin-left:4%;}
+.form-control{font-weight:300;}
+.form-group {-webkit-transform: none; -moz-transform: none; -o-transform: none;}
+div.modal-footer p{font-size:.8em;line-height:.8em;color:#9a9a9a;text-align:center;margin:0 auto;}
+.btn-secondary{color:#d00603;background-color:#fff;border-color:#d00603;}
+.btn-secondary:hover{color:#fff;background-color:#d00603;border-color:#fc0d1b;}
+.btn-secondary.focus, .btn-secondary:focus{-webkit-box-shadow:0 0 0 2px rgba(204,204,204,.5);box-shadow:0 0 0 2px rgba(255,0,0,.5);}
+.btn-secondary.active,
+.btn-secondary:active,
+.show >.btn-secondary.dropdown-toggle{color:#fff;background-color:#c51616;background-image:none;border-color:#ff000c;}
+div.modal-footer a{font-size:1em;line-height:1.5em;color:#9a9a9a;text-align:center;text-decoration:none;}
+div.modal-footer a:hover{font-size:1em;line-height:1.5em;color:#d00603;text-align:center;text-decoration:none;}
+p.contactanos{margin:15% auto;padding:0;margin-top:-5%;}
+div#footer{display:block;width:100%;margin:0 auto;text-align:center;}
+#equipo-aq8 figure:nth-child(8) img{min-width:550px;margin-left:-14%;}
+#footer figure img{max-width:180px;}
+div#footer2{display:inline-block;width:100%;margin:0 auto;}
+div#logo-lexter{display:inline-block;position:relative;top:-40px;width:48%;}
+div#logo-lexter figure{margin:0;padding:0;text-align:right;margin-right:7%;}
+div#logo-lexter figure img, div#logo-lexter-center img{max-width:180px;min-width:180px;}
+div#logo-lexter-center{margin:0 auto;text-align:center;}
+div#logo-lexter p.telefono{display:block;}
+div#logo-lexter a.mail{display:block;}
+div#logo-lexter a.web{display:block;}
+div#contright{display:inline-block;width:48%;margin:0px;padding-left:4%;text-align:left;border-left:1px solid #333;}
+a.telefono{color:#333;text-decoration:none;font-size:1.5em;margin-top:3%;line-height:2em;}
+a.mail, a.web{display:block;color:#333;text-decoration:none;font-size:1em;line-height:2em;}
+p.copyright{display:inline;color:#9a9a9a;text-align:center;line-height:1.4em;font-size:.75em;margin:0 auto;}
+#contactar h2{display:inline;}
+#contactar{text-align:center;}
+.bodytec{text-align:center;margin:10% auto 5% auto;}
+#center{margin:-10px 0 0 0;}
+.navbar-toggler-right{margin-top:7px;}
+#logo_menu img{margin:2px 0px 0px 3px;width:90%;}
+header nav #logo_movil img:hover{opacity:.6;}
+header #btn-cont{width:auto;height:auto;background:red;}
+#btn-cont a button{cursor:pointer;margin:6px;position:absolute;right:5px;top:0;}
+.btn-outline-primary{background-color:#0275d8;color:#fff;border-color:#0275d8;}
+.btn-outline-primary:hover{background-color:transparent;color:#024f92;border-color:#024f92;}
+#card_menu{display:none;}
+div.botones{width:50%;margin:7% 25%;text-align:center;-webkit-animation-delay:6s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+div.gracias{background-repeat:no-repeat;background-position:center center;background-size:cover;position:relative;height:100%;}
+p.text-agrad{-webkit-animation-delay:4s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+h1.problema{font-size:3em;}
+.AQ8system{text-align:center;margin:15%;}
+body > div.container.gracias > div > a:nth-child(1), body > div.container.gracias > div > a:nth-child(1){margin-bottom:5%;}
+/* Redes Sociales */
+.social{position:fixed;left:0;top:25px;z-index:2000;-webkit-animation-delay:2s;animation-delay:2s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.social ul{list-style:none;-webkit-padding-start:0;padding-start:0;-webkit-margin-before:0;margin-before:0;-webkit-margin-after:0;margin-after:0;-webkit-margin-start:0;margin-start:0;-webkit-margin-end:0;margin-end:0;}
+.social ul li a{display:inline-block;color:#fff;background:#000;padding:10px 15px;text-decoration:none;-webkit-transition:all 500ms ease;-o-transition:all 500ms ease;transition:all 500ms ease;}
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-instagram {border-radius:0 5px 0 0;background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);}
+.social ul li .icon-youtube {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background:#333;border-radius:0 0 5px 0;}
+.social ul li a:hover {padding: 10px 30px;border-radius:0 5px 5px 0;}
+.fab{font-size:1.5em;color:#fff;}.far{font-size:1.2em;margin:1px;color:#fff;}
+/* fin de redes sociales */
+.fas:hover{color:#ca000c;}
+@media screen and (min-width:414px){#equipo-aq8 figure:nth-child(8){margin-left:-2%;}
+#MR figure img{padding:0 15%;}
+#equipo-aq8 figure:nth-child(8) img{margin-left:-8%;}
+#negocio figure{margin-top:-4%;}
+div#distribucion{margin-top:-33%;}
+}
+@media screen and (min-width:480px){
+.movil{margin:3% auto 0 auto;}
+body header nav{padding:1rem;}
+#negocio figure{margin-top:-3%;}
+div .group div#center{width:43%;vertical-align:top;}
+body div#certificados figure{margin:5% 13%;width:22%;}
+body div#certificados{left:1%;}
+#suscribirse a{left:40%;}
+#video iframe{width:100%;height:327px;}
+div.saber a{margin:0 1%;}
+.mb-10n{margin-bottom:-8%;}
+.mt-7{margin-top:5%;}
+div#footer{display:inline-block;width:100%;margin:0;}
+div#aq8{padding-top:29%;}
+div#aq8 p{padding-top:5%;}
+div#logo-lexter{top:-30px;}
+div#contright{width:49%;padding-left:4%;}
+a.telefono{margin-top:4%;font-size:1.7em;line-height:2em;}
+a.mail, a.web{font-size:1em;line-height:2em;}
+#equipo-aq8 figure:nth-child(8) img{min-width:690px;margin-left:-8%;}
+p.contactanos{margin-top:-10%;}
+div#distribucion{margin-top:-28%;}
+#footer figure img{margin-bottom:0;}
+}
+@media screen and (min-width:600px){
+.social{top:215px;}
+.movil{display:none;}
+.website{display:inline-block;}
+.navbar-brand{width:50%;margin:0;}
+.info-web{display:inline-block;position:absolute;right:3%;width:30%;text-align:right;}
+body div:nth-child(3) figure,#MR figure,
+#equipo-aq8 figure:nth-child(2){width:100%;margin:0;max-width:766px;}
+body header nav a img{height:80px;}
+body div#certificados{padding:0;margin:0 auto;left:0;text-align:center;}
+body div#certificados figure {margin:5% 2%;width:20%;}
+h1{font-size:4em;line-height:1em;margin-top:10%;}
+h4{font-size:1.8em;line-height:.8em;}
+#certificados figure{display:inline-block;margin:0 auto;width:auto;}
+#certificados figure:nth-child(1) img,
+#certificados figure:nth-child(2) img,
+#certificados figure:nth-child(3) img,
+#certificados figure:nth-child(4) img{width:100%;max-width:120px;}
+#imagen figure,
+#equipo-aq8 figure:nth-child(7){width:100%;margin:0;max-width:none;}
+#imagen figure img,
+#equipo-aq8 figure:nth-child(7) img{width:100%;}
+#video-contacto{width:80%;margin:0 10%;}
+#video iframe{height:336px;}
+div#equipo-aq8{margin-top:10%;}
+div.group div#center{width:20%;margin:2.3%;}
+#paises > p.subtitulo2.mt-7{font-size:2em;line-height:0;margin-top:-7%;}
+#paises > p.mt-10.light.no-lr-pd{}
+.subtitulo2{line-height:1.5em;}.subtitulo{font-size:2.5em;}.titulo{font-size:4em;}
+#imagen p:nth-child(2),
+#equipo-aq8 p.sincables,
+div#aq8 p{font-size:3em;}
+.AQ8system{margin:10%;}
+#negocio figure{margin-top:-2%;}
+#equipo-aq8 figure:nth-child(9) img{width:100%;}
+#negocio > figure > img{width:75%;}
+#MR p:nth-child(1),
+#negocio p.negocio{font-size:1.5em;}
+div#paises p{font-size:1.3em;line-height:1.5em;}
+div#paises p.cuatro_dos{font-size:12em;margin:0;margin-top:-8%;}.mb-10n{margin-bottom:-5%;}
+#paises > div > a{margin-top:0;margin-bottom:0;}
+#contactar > p.contactanos{font-size:2.5em;}
+#contright a.mail,
+#contright a.web{display:block;margin:2% 0;}
+p.copyright{margin:2% auto;}
+#equipo-aq8 figure:nth-child(8) img{min-width: 850px;margin-left:-19%;}
+div#aq8{padding-top:36%;}
+div#aq8 p{padding-top:0;margin-top:-1%;}
+div#distribucion{margin-top:-22%;}
+}
+@media screen and (min-width:767px){
+.info-web{width:29%;}
+body div:nth-child(5) p.mlr-5.mb-10{margin-bottom:5%;}
+#navbarNav div button{margin:0 40%;}
+h4, #MR > p:nth-child(1),
+#negocio p.negocio{font-size:2em;margin:0 auto;margin-bottom:2%;}
+body div figure img{width:100%;display:inherit;max-width:729px;margin:0 auto;}
+#entrenamientoems,
+body > div:nth-child(3) > p:nth-child(4),
+body > div:nth-child(3) > p:nth-child(5),
+body > div:nth-child(3) > p:nth-child(6),
+#imagen > p:nth-child(3), #imagen > p:nth-child(4),
+#equipo-aq8 p:nth-child(3), #negocio p.pnegocio{font-weight:300;font-size:1.2em;line-height:1.4em;color:#333333;margin:0 auto;padding:0 10%;margin-top:2%;text-align:center;}
+body > div:nth-child(3) > div.group{margin:5% auto;top:0;width:100%;padding-right:6%;}
+body div#certificados{width:100%;margin:5% 0;display:inline-block;top:0px;padding:0px;}
+body div#certificados figure{display:inline-block;margin:2% 2%;}
+#certificados figure img{width:100%;max-width:160px;margin:0 11%;}
+#imagen > p.mlr-5.mb-10{margin-bottom:2%;}
+#imagen{width:100%;display:inline-block;background:#ffffff;}
+#imagen figure img,
+#equipo-aq8 figure:nth-child(6) img{max-width:100%;}
+#imagen p:nth-child(2),
+#tel-video p{width:100%;display:inline-block;font-size:3em;margin:0 auto;padding:0;margin-top:4%;}
+div#tel-video{width:100%;display:block;margin:5% auto;}
+#tel-video p{display:inline-block;padding:0;margin:0 auto;line-height:0;text-align:center;}
+div#tel-video a.texto-phone{text-align:center;font-size:2.5em;display:block;margin:0 auto;margin-bottom:3%;}
+div#video{display:inline-block;width:100%;}
+body div:nth-child(5) div.saber a, #negocio div a{width:19%;}
+body div:nth-child(3) figure{width:100%;margin:0;max-width:950px;}
+#equipo-aq8 figure:nth-child(8) img{min-width:auto;margin-left:0;display:block;max-width:fit-content;}
+#video iframe{height:533px;}
+#MR > p.titulo{font-size:5em;}
+#MR > p.subtitulo.mb-10{font-size:3em;}
+#MR > p.mt-10.mlr-5{margin-top:5%;}
+#MR > p.neg-cur.mt-7.mb-05{margin-bottom:0;}
+#equipo-aq8 > p.titulo.mt-20{margin-top:10%;}
+#video-contacto{width:100%;height:auto;margin:0;}
+div#MR{display:inline-block;width:100%;margin:0 auto;margin-top:15%;}
+body > div:nth-child(5){margin-top:10%;}
+div.saber{margin-bottom:10%;}
+#tel-video div a{width:15%;}
+#MR figure{display:inline-block;width:70%;margin:0 15%}
+#equipo-aq8 figure:nth-child(3) img{width:60%;}
+#MR p:nth-child(4),
+#MR p:nth-child(5){display:inline-block;width:80%;margin:1% 10%;padding:0;font-size:1.2em;line-height:1.6em;}
+#MR div{display:none;width:200px;position:absolute;left:63%;top:45%;margin:0 auto;}
+div#equipo-aq8{margin-top:7%;}
+#equipo-aq8 p.sincables{font-size:4em;margin:0 auto;padding:0;}
+#equipo-aq8 figure:nth-child(2){display:inline-block;width:50%;margin:0 25%;margin-top:2%;}
+#equipo-aq8 figure:nth-child(6) img{margin-top:5%;}
+#equipo-aq8 figure:nth-child(7){margin-top:3%;}
+#equipo-aq8 > p.subtitulo2.mb-10{font-size:2em;}
+#equipo-aq8 > p:nth-child(6){margin-bottom:6%;}
+#equipo-aq8 > p.negrita{margin-bottom:2%;}
+#equipo-aq8 > figure:nth-child(9) > img{max-width:949px}
+#negocio > p:nth-child(1){margin-top:5%;}
+#negocio > p:nth-child(1),#negocio > p.mt-05{font-size:1.5em;}
+div#negocio{margin-top:0;padding-top:5%;}
+#negocio > p.pnegocio{margin-top:-10%;}
+#negocio p.negocio span{font-size:3em;}
+#negocio figure img{max-width:720px;}
+div#aq8 p{padding-top:0%;font-size:3em;margin-top:-10%;}
+div#aq8{padding-top:40%;}
+.bodytec{margin:5% auto;}
+#paises{margin-top:-8%;}
+div#paises p.cuatro_dos{font-size:15em;margin:-17% 0 0 0;}
+#paises > p.subtitulo2.mt-7{font-size:3em;margin-top:-7%;padding-left:0;}
+div#paises p{padding:0;font-size:1.5em;margin:7% auto;}
+div#paises > div.saber{margin:10% auto 0 auto;padding-bottom:10%;}
+div#paises p:nth-child(3){margin-top:13%;padding-left:25%;}
+#contactar p.contactanos{font-size:3em;margin-top:0%;margin-bottom:7%;}
+#contright a.mail,
+#contright a.web{font-size:1.3em;line-height:1.4em;display:block;}
+#contright a.telefono{margin-top:0%;font-size:1.6em;}
+#contactar p.copyright{margin:0 auto;padding:0;margin-top:8%;margin-bottom:5%;}
+div#logo-lexter{top:0;} div#logo-lexter figure{margin-right:-35%;}
+div.botones {width:30%;margin:7% 35%;}
+#negocio p.pnegocio{margin-top:0;}
+div#distribucion{margin-top:-20%;}
+#negocio div{margin-top:-4%;}
+}
+@media screen and (min-width:950px){.navbar{padding:.5rem 2rem;}
+#navbarNav div{position:relative;left:40%;margin:0 auto;}
+#navbarNav div button{margin:0;}
+h1{font-size:5em;margin-top:5%;}
+h4{font-size:2.5em;}
+body div:nth-child(3) figure{width:100%;margin:0 auto;}
+#entrenamientoems,
+body div:nth-child(3) p:nth-child(4),
+body div:nth-child(3) p:nth-child(5),
+#center > p:nth-child(1){font-size:4em;line-height:.9em;}
+body div:nth-child(3) div.group{display:block;margin:5% auto;padding:0 15%;}
+div .group div#center{margin:0 auto;width:24%;}
+#center > p:nth-child(1){padding:0;}
+#center p:nth-child(2){padding-left:0;}
+body div#certificados{width:100%;margin:7% 0;}
+#video-contacto{width:100%;margin:0 auto;display:inline-block;background:#fff;margin-top:2%;}
+#video iframe{width:100%; height:566px;}
+div#tel-video{display:inline-block;width:49%;margin:5% auto;vertical-align:middle;}
+#tel-video a{width:30%;} #wide > div > a{width:40%;}
+#negocio > div > a{width:17%;margin-bottom:0;}
+div#video{display:inline-block;width:100%;margin:0 auto;}
+body div:nth-child(5){display:inline-block;}
+#imagen p:nth-child(2){font-size:3.5em; margin-top:8%;}
+div#tel-video a.texto-phone{margin:5% auto;margin-top:14%;}
+#MR div.saber{display:inline-block;padding-top:5%;position:relative;width:100%;top:0;left:0;}
+#MR p:nth-child(1){display:block;width:100%;font-size:1.5em;line-height:1.5em;padding:0;margin:2% auto;}
+#wide > p.titulo{font-size:5em;}
+#MR figure,
+#MR > p:nth-child(1),
+body > div:nth-child(5) > div.saber,
+#btn-cont a button,
+#MR p:nth-child(4),
+#MR p:nth-child(5),
+div#equipo-aq8,#MR > p.titulo,#MR > p.subtitulo.mb-10,#MR > p:nth-child(6),
+#MR > p.neg-cur.mt-7.mb-05,body > div:nth-child(7) > div.saber{display:none;}
+#negocio > p:nth-child(5){margin-left:15%;margin-right:15%;}
+div#wide, div#wide-img,
+#equipo-aq8-wide div.imagen-equipo,
+#text-equipo{display:inline-block;vertical-align:middle;width:49%;position:relative;top:0;left:0;padding-top:0;}
+div#wide{margin:0;padding-left:10%;}
+#text-equipo{margin:0;padding-right:5%;}
+#text-equipo > p.subtitulo2.mb-05{font-size:2em;line-height:1em;}
+#text-equipo > p.sincables{font-size:4em;line-height:1em;font-weight:700;}
+#wide > p:nth-child(4){display:inline-block;width:100%;font-weight:300;font-size:1.2em;line-height:1.4em;color:#333333;margin:0 auto;margin-top:5%;padding:0;text-align:center;}
+#equipo-aq8-wide figure img{max-width:1920px;margin-top:8%;}
+#equipo-aq8-wide > div.imagen-equipo > figure > img{margin-top:15%;}
+#wide-img > figure{display:inline-block;width:100%;padding:0;margin:0;}
+div#negocio{width:100%;margin-bottom:-10%;}
+#negocio p.pnegocio{margin-top:0;padding:0 8%;width:85%;}#negocio > p:nth-child(6){width:45%;margin:0 auto;}
+div#equipo-aq8-wide{display:inline-block;width:100%;margin:0 auto;padding:0;margin-top:5%;}
+#contactar p.copyright{margin-bottom:2%;margin-top:4%;}
+div#paises > div.saber {margin: 5% auto 0 auto;}
+body > div:nth-child(3) > div.saber{margin-bottom:5%;}
+body div:nth-child(6) div.saber{display:none;}
+#mc_embed_signup_scroll div.indicates-required{margin:0 25% 2% 0;}
+#paises p:nth-child(1){margin:5% auto;margin-bottom:0;margin-top:14%;}
+div#paises p.cuatro_dos{font-size:10em;margin:0 auto;margin-top:-4%;}
+div#paises p:nth-child(3){margin-top:11%;padding-left:20%;}
+#paises > p:nth-child(4){margin-bottom:3%;font-size:1.5em;margin-top:3%;}
+#paises > p.subtitulo2.mt-7 {font-size:2.5em;margin-top:-3%;}
+a.telefono{margin-top:-7%;}
+div#aq8 p{padding-top:18%;}
+div#aq8{padding-top:19%;}
+div#footer{padding-left:0;}div#logo-lexter figure{margin-right:-45%;}
+div.botones{width:20%;margin:7% 40%;}
+div#distribucion{margin-top:-5%;}
+.info-web{width:25%;text-align:center;left:38%;}
+body header nav a img{height:60px;}
+#footer figure img{margin-bottom:8%;}
+#imagen p:nth-child(4){padding:0 8% 3%;}
+}
+@media screen and (min-width:1024px){
+body div:nth-child(5){margin-top:0;}
+body div:nth-child(5) div.saber{display:inline-block;}
+}
+@media screen and (min-width:1365px){
+.info-web{display:inline-block;position:inherit;text-align:center;width:230%;margin:0 0;right:-4%;}
+.link-faldon{margin:0 auto;position:relative;right:60%;}
+#navbarNav div{left:30%;}
+body div:nth-child(4) div.saber{margin-bottom:4%;}
+body div:nth-child(4) p:nth-child(4),
+body div:nth-child(4) p:nth-child(5){margin:0;padding:0 20%;margin-top:2%;}
+body div:nth-child(4) div.group{padding:5% 15%;}
+div#tel-video{margin-left:15%;width:35%;}
+div#MR{margin-top:10%;}
+#wide-img figure{width:75%;}
+body div:nth-child(6) div.saber{display:none;}
+#negocio div{display:block;}
+#negocio figure img{margin-top:2%;}
+div#equipo-aq8-wide{margin-top:0;}
+#video-contacto{width:70%;margin:0 15%;}
+}
+@media screen and (min-width:1440px){
+.link-faldon{right:0%;}
+.info-web{left:7%;}
+#navbarNav div{left:37%;}
+body div:nth-child(5) div.saber{margin:2% auto;}
+body div:nth-child(5) div.saber a{width:13%;}
+body div:nth-child(5) p:nth-child(3),
+body div:nth-child(5) p:nth-child(4),
+body div:nth-child(5) p.mlr-5.mb-10,
+#entrenamientoems,#imagen p:nth-child(5),
+#negocio p.pnegocio.mlr-5{margin-left:25%!important;margin-right:25%!important;}
+div.group{width:50%;margin:0 25%;}
+body div#certificados{margin:5% 25%;width:50%;}
+.reserch{margin:4% auto;margin-bottom:5%;}
+#video-contacto{width:50%;margin:0 25%;}
+#wide div a{width:20%;}
+div#wide{padding-left:15%;}
+#equipo-aq8-wide div.imagen-equipo figure img{width:70%;margin:15% 0 0 30%;}
+#text-equipo{width:30%;margin:10% 20% 0 0;padding:0;}
+#equipo-aq8-wide figure img{margin-top:5%;}
+div#negocio{padding-top:0;}
+#negocio p.pnegocio{width:50%;}
+#negocio figure{margin-top:-1%;}
+div#distribucion, #negocio div{margin-top:-2%;}
+#negocio div a{width:10%;}
+#negocio figure img{margin-top:0%;}
+div#aq8{margin:0 auto;padding-top:58%;margin-top:-4%;}
+div#aq8 p{padding:0;margin:0 auto;margin-top:-34%;}
+#paises > p.mb-10n.light.no-lr-pd{margin:1% auto;margin-top:-27%;}
+div#paises p.cuatro_dos{font-size:14em;margin-top:-5%;}
+div#paises div.saber{margin:-5% auto 0 auto;margin-bottom:12%;}
+#contactar p.contactanos{margin-bottom:4%;}
+.bodytec{margin:2% auto;}
+}
+@media screen and (min-width:2560px){
+.info-web{left:6%;}
+body div figure img{max-width:1260px;}
+body div:nth-child(5) div.saber a{width:10%;}
+#wide p:nth-child(4){padding:0 10%;}
+#equipo-aq8-wide figure img{min-width:2560px;}
+#equipo-aq8-wide div.imagen-equipo figure img{min-width:920px;}
+#negocio figure{margin-top:0;}
+div#aq8{margin-top:-2%;}
+div#paises p.cuatro_dos{font-size:19em;}
+}
+@-webkit-keyframes fadeIn{0%{opacity:0;}
+100%{opacity:1;}
+}
+@keyframes fadeIn{0%{opacity:0;}
+100%{opacity:1;}
+}/* Boton subir */
+.boton-subir{display:none;background:#ff0000;border-radius:25px 25px 0 0;position:fixed;left:15px;bottom:-1px;z-index:999999999;}
+.boton-subir:hover{background:#a50000;box-shadow:0px 2px 10px 0px rgba(255, 255, 255, 0.75);padding-bottom:10px;transition-duration:1s}
+.boton-subir i{color:#fff;font-size:1.5em;padding:10px 15px 15px 15px;}
