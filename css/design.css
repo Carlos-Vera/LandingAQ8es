@@ -350,6 +350,7 @@ div#tel-video a.texto-phone{margin:5% auto;margin-top:14%;}
 body > div:nth-child(5) > div.saber,
 #btn-cont a button,
 #MR p:nth-child(4),
+#MR > p.mt-10.mlr-5,
 div#equipo-aq8,#MR > p.titulo,#MR > p.subtitulo.mb-10,#MR > p:nth-child(6),
 #MR > p.neg-cur.mt-7.mb-05,body > div:nth-child(7) > div.saber, #MR > p:nth-child(3){display:none;}
 #negocio > p:nth-child(5){margin-left:15%;margin-right:15%;}
