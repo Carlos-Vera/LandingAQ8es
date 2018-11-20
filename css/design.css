@@ -399,7 +399,8 @@ body div:nth-child(5) div.saber{display:inline-block;}
 #navbarNav div{left:30%;}
 body div:nth-child(4) div.saber{margin-bottom:4%;}
 body div:nth-child(4) p:nth-child(4),
-body div:nth-child(4) p:nth-child(5){margin:0;padding:0 20%;margin-top:2%;}
+body div:nth-child(4) p:nth-child(5),
+#text-equipo > p:nth-child(6){margin:0;padding:0 20%;margin-top:2%;}
 body div:nth-child(4) div.group{padding:5% 15%;}
 div#tel-video{margin-left:15%;width:35%;}
 div#MR{margin-top:10%;}
