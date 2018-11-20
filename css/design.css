@@ -395,7 +395,7 @@ body div:nth-child(5) div.saber{display:inline-block;}
 }
 @media screen and (min-width:1365px){
 .info-web{display:inline-block;position:inherit;text-align:center;width:230%;margin:0 0;right:-4%;}
-.link-faldon{margin:0 auto;position:relative;right:60%;}
+.link-faldon{margin:0 auto;position:relative;right:60%;margin-right:1%;}
 #navbarNav div{left:30%;}
 body div:nth-child(4) div.saber{margin-bottom:4%;}
 body div:nth-child(4) p:nth-child(4),
