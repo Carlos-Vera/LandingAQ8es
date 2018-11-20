@@ -411,7 +411,7 @@ div#equipo-aq8-wide{margin-top:0;}
 #video-contacto{width:70%;margin:0 15%;}
 }
 @media screen and (min-width:1440px){
-.link-faldon{right:0%;}
+.link-faldon{right:0%;margin-right:1%;}
 .info-web{left:7%;}
 #navbarNav div{left:37%;}
 body div:nth-child(5) div.saber{margin:2% auto;}
