@@ -19,10 +19,10 @@
 	},
 	"emails_info" : {
 		"error" : "Error de envío: {{1}}",
-		"subject" : "Un Nuevo Mensaje de la landing en Español",
+		"subject" : "Un Nuevo Mensaje de nuestra landing en Español (México)",
 		"custom_before_subject" : "",
-		"body" : "<b>¡Enhorabuena!</b>,<br />Hemos recibido un nuevo mensaje desde el formulario de la landing page en Español.<br /><br />Estos son los datos del solicitante:<br />",
-		"body_ip_address" : "Dirección IP: {{1}}",
+		"body" : "<b>¡Enhorabuena!</b>,<br />Hemos recibido un nuevo mensaje desde el formulario de la landing page en Español para México.<br /><br />Estos son los datos del solicitante:<br />",
+		"body_ip_address" : "Localizar el usuario: <a href=\"http://{{1}}.ip-adress.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Geolocalizar</a>",
 		"confirmation" : {
 			"subject" : "Hemos recibido su mensaje",
 			"body" : "Gracias!<br />Hemos recibido su mensaje. Te contestaremos lo antes posible!",
