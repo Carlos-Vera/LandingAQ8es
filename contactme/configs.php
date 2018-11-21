@@ -22,13 +22,13 @@ $configs['cc_addresses']			= array();										// The cc addresse(s)
 $configs['bcc_addresses']			= array('backup@aq8system.com');				// The bcc addresse(s)
 $configs['user_ip_address']			= true;											// Do you want to add in the email the IP address of the user who filled in the Form?
 // SMTP configs
-$configs['smtp_enabled']			= true;											// Is the SMTP email sending enabled? (if not, PHP mail server will be used)
-$configs['smtp_host']				= 'lin149.loading.es';							// Ip of the SMTP host server
+$configs['smtp_enabled']			= false;										// Is the SMTP email sending enabled? (if not, PHP mail server will be used)
+$configs['smtp_host']				= '';											// Ip of the SMTP host server
 $configs['smtp_auth']				= true;											// Enable SMTP authentication?
-$configs['smtp_username']			= 'web@aq8system.com';							// SMTP username (only if the authentication is enabled)
-$configs['smtp_password']			= '9h6X_i2k';									// SMTP password (only if the authentication is enabled)
-$configs['smtp_secure']				= 'ssl';										// Choose the encryption: 'tls' or 'ssl'
-$configs['smtp_port']				= 465;											// TCP port
+$configs['smtp_username']			= '';											// SMTP username (only if the authentication is enabled)
+$configs['smtp_password']			= '';											// SMTP password (only if the authentication is enabled)
+$configs['smtp_secure']				= 'tls';										// Choose the encryption: 'tls' or 'ssl'
+$configs['smtp_port']				= 587;											// TCP port
 // Upload management
 $configs['upload_dir']				= 'uploads/';									// Path to the upload directory
 $configs['upload_limit']			= 10;											// Upload limit. You should leave the default 10MB
