@@ -66,7 +66,7 @@
 	<div class="social">
 		<ul>
 			<li><a href="https://www.instagram.com/aq8system/" rel="noopener noreferrer" target="_blank" class="icon-instagram"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="contactanos.html" rel="noopener noreferrer" class="icon-mail"><i class="far fa-envelope"></i></a></li>
+			<li><a href="contactanos" rel="noopener noreferrer" class="icon-mail"><i class="far fa-envelope"></i></a></li>
 		</ul>
 	</div>
 	<header>
@@ -75,14 +75,14 @@
 			<a class="link-faldon-movil" href="mailto:info@aq8system.com?&subject=Un%20nuevo%20interesado%20en%20AQ8%20System%20desde%20nuestra%20Landing%20Page%20en%20español&body=Me%20gustaría%20saber%20un%20poco%20más%20de%20vuestro%20producto" rel="noopener noreferrer" title="...no espere más, contáctenos!"><i class="fas fa-envelope"></i> info@AQ8system.com</a>
 		</div>
 		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-		  <a class="navbar-brand" href="inicio.html" rel="noopener noreferrer" title="The Wireless Multiuser EMS Training®"><img src="img/Logo-AQ8-h.png" alt="ElectroEstimulación | AQ8 System®"></a>
+		  <a class="navbar-brand" href="inicio" rel="noopener noreferrer" title="The Wireless Multiuser EMS Training®"><img src="img/Logo-AQ8-h.png" alt="ElectroEstimulación | AQ8 System®"></a>
 		  <div class="info-web">
 		  <a class="link-faldon website" href="tel:+34910067939" rel="noopener noreferrer"><i class="fas fa-phone-volume"></i> +34 910 067 939</a><a class="link-faldon website" href="tel:+34660253250" rel="noopener noreferrer"><i class="fas fa-mobile"></i> +34 660 25 32 50</a>
 		  <a class="link-faldon website" href="mailto:info@aq8system.com?&subject=Un%20nuevo%20interesado%20en%20AQ8%20System%20desde%20nuestra%20Landing%20Page%20en%20español&body=Me%20gustaría%20saber%20un%20poco%20más%20de%20vuestro%20producto" rel="noopener noreferrer" title="...no espere más, contáctenos!"><i class="fas fa-envelope"></i> info@AQ8system.com</a>
 		  </div>
 		  <div class="navbar-collapse collapse" id="navbarNav" aria-expanded="false">
 		    <div class="navbar-nav">
-		    	<a href="inicio.html" rel="noopener noreferrer" class="animated shake btn btn-primary" role="button" aria-pressed="true" title="Volvamos al inicio">Volver al inicio</a>
+		    	<a href="inicio" rel="noopener noreferrer" class="animated shake btn btn-primary" role="button" aria-pressed="true" title="Volvamos al inicio">Volver al inicio</a>
 		    </div>
 		  </div>
 		</nav>
@@ -117,7 +117,7 @@
 					<div class="msg"></div>
 
 					<button class="btn btn-primary" type="submit" data-sending="...Por favor, espere!">Enviar</button>
-					<a href="inicio.html" rel="noopener noreferrer" class="btn btn-primary space" role="button" aria-pressed="true" title="...no lo dudes contáctanos!">Volver al Inicio</a>
+					<a href="inicio" rel="noopener noreferrer" class="btn btn-primary space" role="button" aria-pressed="true" title="...no lo dudes contáctanos!">Volver al Inicio</a>
 				</section>
 			</form>
 	</div>
@@ -138,29 +138,11 @@
 		<script src="contactme/js/jquery.timepicker.min.js"></script>
 		<script src="contactme/js/select2.full.min.js"></script>
 		<script src="contactme/js/select2-lang/en.js"></script>
-		<!--[if lt IE 9]><script src="contactme/js/EQCSS-polyfills-1.7.0.min.js"></script><![endif]-->
 		<script src="contactme/js/EQCSS-1.7.0.min.js"></script>
 		<script src="contactme/js/contactme-config.js"></script>
 		<script src="contactme/js/contactme-1.4.js"></script>
 		<!-- To enable Google reCAPTCHA, uncomment the next line: -->
 		<script src="https://www.google.com/recaptcha/api.js?onload=initRecaptchas&render=explicit" async defer></script>
-
-	<script>
-		$(function(){
-			$('.menu > a').on('click', function(e){
-				e.preventDefault();
-				$('.menu > a, .form-container').removeClass('active');
-				$(this).addClass('active');
-				$($(this).attr('href')).addClass('active');
-			});
-			$('#choose-theme > a').on('click', function(e){
-				e.preventDefault();
-				var themeName = $(this).data('theme-name');
-				$('.contactMe').removeClass('theme-minimal theme-modern theme-london').addClass(themeName);
-				$('#choose-theme > a').removeClass('active');
-				$(this).addClass('active');
-			});
-		});
-	</script>
+		<script src="contactme/js/theme.js"></script>
 </body>
 </html>
