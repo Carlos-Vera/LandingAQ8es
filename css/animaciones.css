@@ -108,44 +108,42 @@
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
-@keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-}
-
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
-}
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
 
 @-webkit-keyframes rubberBand {
   from {
@@ -365,16 +363,16 @@
   }
   @-webkit-keyframes swing {
   20% {
-  -webkit-transform: rotate3d(0, 0, 1, 15deg);
-  transform: rotate3d(0, 0, 1, 15deg);
+  -webkit-transform: rotate3d(0, 0, 1, 20deg);
+  transform: rotate3d(0, 0, 1, 20deg);
   }
   40% {
-  -webkit-transform: rotate3d(0, 0, 1, -10deg);
-  transform: rotate3d(0, 0, 1, -10deg);
+  -webkit-transform: rotate3d(0, 0, 1, -15deg);
+  transform: rotate3d(0, 0, 1, -15deg);
   }
   60% {
-  -webkit-transform: rotate3d(0, 0, 1, 5deg);
-  transform: rotate3d(0, 0, 1, 5deg);
+  -webkit-transform: rotate3d(0, 0, 1, 10deg);
+  transform: rotate3d(0, 0, 1, 10deg);
   }
   80% {
   -webkit-transform: rotate3d(0, 0, 1, -5deg);
@@ -387,16 +385,16 @@
   }
   @keyframes swing {
   20% {
-  -webkit-transform: rotate3d(0, 0, 1, 15deg);
-  transform: rotate3d(0, 0, 1, 15deg);
+  -webkit-transform: rotate3d(0, 0, 1, 20deg);
+  transform: rotate3d(0, 0, 1, 20deg);
   }
   40% {
-  -webkit-transform: rotate3d(0, 0, 1, -10deg);
-  transform: rotate3d(0, 0, 1, -10deg);
+  -webkit-transform: rotate3d(0, 0, 1, -15deg);
+  transform: rotate3d(0, 0, 1, -15deg);
   }
   60% {
-  -webkit-transform: rotate3d(0, 0, 1, 5deg);
-  transform: rotate3d(0, 0, 1, 5deg);
+  -webkit-transform: rotate3d(0, 0, 1, 10deg);
+  transform: rotate3d(0, 0, 1, 10deg);
   }
   80% {
   -webkit-transform: rotate3d(0, 0, 1, -5deg);
