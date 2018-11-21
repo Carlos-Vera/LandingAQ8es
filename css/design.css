@@ -132,7 +132,7 @@ header #btn-cont{width:auto;height:auto;background:red;}
 #card_menu{display:none;}
 div.botones{width:50%;margin:7% 25%;text-align:center;-webkit-animation-delay:6s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
 div.gracias{background-repeat:no-repeat;background-position:center center;background-size:cover;position:relative;height:100%;}
-p.text-agrad{-webkit-animation-delay:4s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;width:60%;}
+p.text-agrad{-webkit-animation-delay:4s;animation-delay:2.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;width:60%;position:relative;margin:0 auto;}
 h1.problema{font-size:3em;}
 .AQ8system{text-align:center;margin:15%;}
 body > div.container.gracias > div > a:nth-child(1), body > div.container.gracias > div > a:nth-child(1){margin-bottom:5%;}
