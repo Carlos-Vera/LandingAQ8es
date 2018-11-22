@@ -140,10 +140,11 @@ body > div.container.gracias > div > a:nth-child(1), body > div.container.gracia
 .social{position:fixed;left:0;top:25px;z-index:2000;-webkit-animation-delay:2s;animation-delay:2s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
 .social ul{list-style:none;-webkit-padding-start:0;padding-start:0;-webkit-margin-before:0;margin-before:0;-webkit-margin-after:0;margin-after:0;-webkit-margin-start:0;margin-start:0;-webkit-margin-end:0;margin-end:0;}
 .social ul li a{display:inline-block;color:#fff;background:#000;padding:10px 15px;text-decoration:none;-webkit-transition:all 500ms ease;-o-transition:all 500ms ease;transition:all 500ms ease;}
+.social ul li .icon-instagram {background:#333;}
 .social ul li .icon-facebook {background:#3b5998;}
 .social ul li .icon-twitter {background: #00abf0;}
 .social ul li .icon-whatsapp {background: #34bf49;}
-.social ul li .icon-instagram {border-radius:0 5px 0 0;background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+.social ul li .icon-instagram:hover {border-radius:0 5px 0 0;background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
 radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
 radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
 radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
