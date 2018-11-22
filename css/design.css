@@ -24,7 +24,7 @@ h4{font-size:21px;font-family:'Roboto', sans-serif;text-align:center;font-weight
 body div figure{margin:0 auto;}
 .emsfitness{text-align:center;margin:0 auto;}
 #equipo-aq8 figure:nth-child(8){margin-left:5%;}
-#negocio figure{text-align:center;margin-top:-6%;}
+#negocio figure{text-align:center;margin-top:-5%;}
 body div figure img{border-style:none;width:100%;-webkit-animation-delay:.5s;animation-delay:.5s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
 .btn{border-radius:1.5rem;}
 .btn-primary{background-color:#FC0D1B;border-color:#FC0D1B;}
@@ -160,7 +160,7 @@ linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);}
 @media screen and (min-width:414px){#equipo-aq8 figure:nth-child(8){margin-left:-2%;}
 #MR figure img{padding:0 15%;}
 #equipo-aq8 figure:nth-child(8) img{margin-left:-8%;}
-#negocio figure{margin-top:-4%;}
+/*#negocio figure{margin-top:-4%;}*/
 div#distribucion{margin-top:-33%;}
 }
 @media screen and (min-width:480px){
@@ -220,7 +220,7 @@ div.group div#center{width:20%;margin:2.3%;}
 #equipo-aq8 p.sincables,
 div#aq8 p{font-size:3em;}
 .AQ8system{margin:10%;}
-#negocio figure{margin-top:-2%;}
+#negocio figure{margin-top:0%;}
 #equipo-aq8 figure:nth-child(9) img{width:100%;}
 #negocio > figure > img{width:75%;}
 #MR p:nth-child(1),
@@ -264,7 +264,7 @@ div#tel-video{width:100%;display:block;margin:5% auto;}
 #tel-video p{display:inline-block;padding:0;margin:0 auto;line-height:0;text-align:center;}
 div#tel-video a.texto-phone{text-align:center;font-size:2.5em;display:block;margin:0 auto;margin-bottom:3%;}
 div#video{display:inline-block;width:100%;}
-body div:nth-child(5) div.saber a, #negocio div a{width:19%;}
+body div:nth-child(5) div.saber a, #negocio div a{width:auto;}
 body div:nth-child(3) figure{width:100%;margin:0;max-width:950px;}
 #equipo-aq8 figure:nth-child(8) img{min-width:auto;margin-left:0;display:block;max-width:fit-content;}
 #video iframe{height:533px;}
@@ -353,7 +353,7 @@ body > div:nth-child(5) > div.saber,
 #MR > p.mt-10.mlr-5,
 div#equipo-aq8,#MR > p.titulo,#MR > p.subtitulo.mb-10,#MR > p:nth-child(6),
 #MR > p.neg-cur.mt-7.mb-05,body > div:nth-child(7) > div.saber, #MR > p:nth-child(3){display:none;}
-#negocio > p:nth-child(5){margin-left:15%;margin-right:15%;}
+/*#negocio > p:nth-child(5){margin-left:15%;margin-right:15%;}*/
 div#wide, div#wide-img,
 #equipo-aq8-wide div.imagen-equipo,
 #text-equipo{display:inline-block;vertical-align:middle;width:49%;position:relative;top:0;left:0;padding-top:0;}
@@ -433,7 +433,7 @@ div#wide{padding-left:15%;}
 #equipo-aq8-wide figure img{margin-top:5%;}
 div#negocio{padding-top:0;}
 #negocio p.pnegocio{width:50%;}
-#negocio figure{margin-top:-1%;}
+#negocio figure{margin-top:0%;}
 div#distribucion, #negocio div{margin-top:-2%;}
 #negocio div a{width:10%;}
 #negocio figure img{margin-top:0%;}
