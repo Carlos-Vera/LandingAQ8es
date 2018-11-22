@@ -140,11 +140,14 @@ body > div.container.gracias > div > a:nth-child(1), body > div.container.gracia
 .social{position:fixed;left:0;top:25px;z-index:2000;-webkit-animation-delay:2s;animation-delay:2s;-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2.5s;animation-duration:2.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
 .social ul{list-style:none;-webkit-padding-start:0;padding-start:0;-webkit-margin-before:0;margin-before:0;-webkit-margin-after:0;margin-after:0;-webkit-margin-start:0;margin-start:0;-webkit-margin-end:0;margin-end:0;}
 .social ul li a{display:inline-block;color:#fff;background:#000;padding:10px 15px;text-decoration:none;-webkit-transition:all 500ms ease;-o-transition:all 500ms ease;transition:all 500ms ease;}
-.social ul li .icon-instagram {background:#333;}
-.social ul li .icon-facebook {background:#3b5998;}
-.social ul li .icon-twitter {background: #00abf0;}
-.social ul li .icon-whatsapp {background: #34bf49;}
-.social ul li .icon-instagram:hover {border-radius:0 5px 0 0;background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+.social ul li .icon-instagram {background:#333;border-radius:0 5px 0 0;transition: 0.5s;}
+.social ul li .icon-mail {background:#333;border-radius:0 0 5px 0;transition:0.5s;}
+.social ul li .icon-facebook,.social ul li .icon-twitter,.social ul li .icon-whatsapp,
+.social ul li .icon-youtube,.social ul li .icon-pinterest,.social ul li .icon-mail{background:#333;transition:0.5s;}
+.social ul li .icon-facebook:hover {background:#3b5998;}
+.social ul li .icon-twitter:hover {background: #00abf0;}
+.social ul li .icon-whatsapp:hover {background: #34bf49;}
+.social ul li .icon-instagram:hover {border-radius:0 5px 5px 0;background:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
 radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
 radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
 radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
@@ -154,7 +157,7 @@ radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
 linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);}
 .social ul li .icon-youtube {background: #d95232;}
 .social ul li .icon-pinterest {background: #ae181f;}
-.social ul li .icon-mail {background:#333;border-radius:0 0 5px 0;}
+.social ul li .icon-mail:hover {background:#ff0000;}
 .social ul li a:hover {padding: 10px 30px;border-radius:0 5px 5px 0;}
 .fab{font-size:1.5em;color:#fff;}.far{font-size:1.2em;margin:1px;color:#fff;}
 /* fin de redes sociales */
