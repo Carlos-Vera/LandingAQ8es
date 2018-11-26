@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 
 /* START - Required Config */
 $configs['from_name']				= 'ElectroFitness | AQ8 System®';				// Your name will be used in emails
-$configs['from_address']			= 'info@aq8system.com';							// Your email address used to send emails
-$configs['to_addresses']			= array('info@aq8system.com');					// The addresse(s) where to send all the requests
+$configs['from_address']			= 'management@aq8system.com';							// Your email address used to send emails
+$configs['to_addresses']			= array('management@aq8system.com');					// The addresse(s) where to send all the requests
 /* END - Required Config */
 
 /* START - Optional Configs */
