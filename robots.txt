@@ -1,0 +1,13 @@
+User-agent: Googlebot
+Disallow: /contactme/
+Disallow: /doc/
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: *
+Disallow: /contactme/
+Disallow: /doc/
+Allow: /*.js$
+Allow: /*.css$
+
+Sitemap: https://electrofitness.tech//sitemap.xml
