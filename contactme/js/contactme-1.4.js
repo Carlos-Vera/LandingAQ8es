@@ -100,8 +100,8 @@ jQuery.getJSON(cm_lang_path, function(data) {
 	// Allow tab navigation on select2 dropdowns
 	$(document).on('focus', '.select2', function(e) {
 		if (e.originalEvent) {
-			$(this).siblings('select').select2('open');    
-		} 
+			$(this).siblings('select').select2('open');
+		}
 	});
 
 	// Convert all select dropdowns into "Select2" dropdowns
@@ -156,7 +156,7 @@ function updateConnectedDatePickers(obj) {
 	if(typeof obj.data('idconnecteddateend') != 'undefined') {
 		startDate = obj;
 		endDate = jQuery('#' + obj.data('idconnecteddateend'));
-		
+
 		if(startDate.val()) {
 	    	var formattedStartDate = new Date(startDate.datepicker("getDate"));
 			var d = formattedStartDate.getDate();
@@ -418,7 +418,7 @@ function submitAjaxForm($form)
         	// Something went wrong
         	var s = '';
         	for (var pair of formData.entries()) {
-			    s += pair[0] + ': ' + pair[1] + '<br />'; 
+			    s += pair[0] + ': ' + pair[1] + '<br />';
 			}
 			showMessage($msg, s, 'error');
 			if(typeof(grecaptcha) != 'undefined' && $form.find('.re-captcha').length > 0) {
