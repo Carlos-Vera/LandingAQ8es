@@ -14,3 +14,6 @@ $("#js_up i").on('click', function (e) {
   },1400); //el valor 700 indica que lo ara en 700 mili segundos
   return false; //rompe el bucle
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
